@@ -1,0 +1,33 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+--
+-- Database: `thunderbay`
+--
+CREATE DATABASE `thunderbay` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `thunderbay`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL auto_increment,
+  `fullname` varchar(200) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `confirmpassword` varchar(100) NOT NULL,
+  `mobile` varchar(100) NOT NULL,
+  `birthdate` date NOT NULL,
+  `streetno` int(11) NOT NULL,
+  `streetname` varchar(200) NOT NULL,
+  `complement` varchar(500) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `state` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL,
+  `postalcode` varchar(100) NOT NULL,
+  `isactive` tinyint(1) NOT NULL,
+  `createddate` date NOT NULL,
+  `modifieddate` date NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;

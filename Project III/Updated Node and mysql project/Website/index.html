@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Foreigner's Guide</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+	<style type="text/css">
+    body {
+		font-family: 'Varela Round', sans-serif;
+	}
+	.modal{
+		top : 10% !important;
+	}
+	.modal-header{
+	    height:50px;
+		padding: 5px;
+	}
+	.modal-header .close {
+		margin-top: -30px !important;
+    }
+	.modal-login {
+		width: 320px;
+	}
+    .modal-register {
+		width: 800px;
+	}
+	.modal-register .modal-content {
+        border-radius: 1px;
+        border: none;
+	}
+	.modal-register .modal-header {
+        position: relative;
+		justify-content: center;
+        background: #f2f2f2;
+	}
+    .modal-register .modal-body {
+        padding: 30px;
+    }
+	.modal-login .modal-content {
+		border-radius: 1px;
+		border: none;
+	}
+	.modal-login .modal-header {
+        position: relative;
+		justify-content: center;
+        background: #f2f2f2;
+	}
+    .modal-login .modal-body {
+        padding: 30px;
+    }
+    .modal-login .modal-footer {
+        background: #f2f2f2;
+    }
+	.modal-login h4 {
+		text-align: center;
+		font-size: 26px;
+	}
+    .modal-login label {
+        font-weight: normal;
+        font-size: 13px;
+    }
+	.modal-login .form-control, .modal-login .btn {
+		min-height: 38px;
+		border-radius: 2px;
+	}
+	.modal-login .hint-text {
+		text-align: center;
+	}
+    .modal-register .hint-text {
+		text-align: center;
+	}
+	.modal-login .close {
+        position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+    .modal-register .close {
+        position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+    .modal-login .checkbox-inline {
+        margin-top: 12px;
+    }
+    .modal-login input[type="checkbox"]{
+        margin-top: 2px;
+    }
+	.modal-login .btn {
+        min-width: 100px;
+		background: #3498db;
+		border: none;
+		line-height: normal;
+	}
+	.modal-login .btn:hover, .modal-login .btn:focus {
+		background: #248bd0;
+	}
+	.modal-login .hint-text a {
+		color: #999;
+	}
+	.trigger-btn {
+		display: inline-block;
+		margin: 100px auto;
+	}
+
+
+</style>
+
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<nav class="left">
+					<a href="#menu"><span>Menu</span></a>
+				</nav>
+				<img src="images/logo.jpg" alt="" width="50px" height="50px">
+				<a href="index.html" class="logo">Foreigner's Guide</a>
+				<nav class="right">
+					<a href="#myModal" data-toggle="modal" class="button alt headerbuttons">Log in</a>
+					<a href="#myRegisterModal" data-toggle="modal" class="button alt">Register</a>
+				</nav>
+
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+					<li><a href="housing.html">Housing</a></li>
+					<li><a href="transportation.html">Trasportation</a></li>
+					<li><a href="health.html">Health</a></li>
+					<li><a href="education.html">Education</a></li>
+					<li><a href="lifeEvents.html">Life Events</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+				<ul class="actions vertical">
+					<li><a href="#" class="button fit">Login</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner" style="background-image: url(images/torronto.jpg)">
+				<div class="content">
+					<h1 id="welcomenote">Foreigner's Guide</h1>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Get Started</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="container">
+        	<h2 class="align-center">How it Works</h2>
+			<div class="flex align-center">
+				<div>
+					<span class="fas fa-home" style="color: #f6755e; font-size: 35px;"></span>
+					<h4>Find Your Accomodation</h4>
+
+				</div>
+				<div>
+					<span class="fas fa-school" style="color: #f6755e; font-size: 35px;"></span>
+					<h4>Find Your School or College</h4>
+
+				</div>
+				<div>
+					<span class="fas fa-bus" style="color: #f6755e; font-size: 35px;"></span>
+					<h4>Find Your Transportation Route</h4>
+
+				</div>
+				<div>
+					<span class="fas fa-ambulance" style="color: #f6755e; font-size: 35px;"></span>
+					<h4>Nearest Hospitals</h4>
+				</div>
+			</div>
+		</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Get In Touch</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="#">(807)-358-5735</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">foreignersguide12@gmail.com</a></li>
+						<li><span class="icon fa-map-marker"></span> 123 Saint Road, Thunder Bay, ON , CA.</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
+
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<form method="post">
+				<div class="modal-header">
+					<h4 class="modal-title">Login</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label>Username</label>
+						<input id="userName" type="text" class="form-control" required="required">
+					</div>
+					<div class="form-group">
+						<div class="clearfix">
+							<label>Password</label>
+							<a href="#" class="pull-right text-muted"></a>
+						</div>
+
+						<input id="userPw" type="password" class="form-control" required="required">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="submit" id="check" class="btn btn-primary pull-right" value="Login" >
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="myRegisterModal" class="modal fade">
+	<div class="modal-dialog modal-register">
+		<div class="modal-content">
+			<form method="post">
+				<div class="modal-header">
+					<h4 class="modal-title" style="text-align:center;">Registeration</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+                  <div class="row uniform">
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="fname" id="fname" value="" placeholder="Name" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="email" name="email" id="email" value="" placeholder="Email" />
+                    </div>
+                    <div class="6u 12u$(xsmall)">
+                        <input type="password" name="pw" id="pw" value="" placeholder="Password" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="password" name="cpw" id="cpw" value="" placeholder="Confirm Password" />
+                    </div>
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="mobile" id="mobile" value="" placeholder="Mobile" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="date" name="birthdate" id="birthdate" value="" placeholder="Birth Date" />
+                    </div>
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="streetno" id="streetno" value="" placeholder="Street No" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="text" name="streetname" id="streetname" value="" placeholder="Street Name" />
+                    </div>
+                    <div class="12u$">
+                        <textarea name="complement" id="complement" placeholder="Enter your complement" rows="6"></textarea>
+                    </div>
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="city" id="city" value="" placeholder="City" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="text" name="state" id="state" value="" placeholder="State" />
+                    </div>
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="country" id="country" value="" placeholder="Country" />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="text" name="postalcode" id="postalcode" value="" placeholder="Postal Code" />
+                    </div>
+                    <div class="12u$">
+                        <ul class="actions">
+                            <li><input type="submit" id="register" class="btn btn-primary pull-right" value="Register" ></li>
+                        </ul>
+                    </div>
+                  </div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/login.js"></script>
+            <script type="text/javascript">
+            $(document).ready(function(){
+                    var loggedin = localStorage.getItem('loggedin');
+                    var storedName = localStorage.getItem('name');
+                    //var storedPw = localStorage.getItem('pw');
+                    if(loggedin != 'undefined' && loggedin == "true" )
+                    {
+                        document.getElementById('welcomenote').innerText = "Welcome, "+storedName+" to the foreigner"+"'"+"s guide";
+                        $(".headerbuttons").hide();
+                    }
+                    else
+                    {
+                        document.getElementById('welcomenote').innerText = "Foreigner's Guide";
+                        $(".headerbuttons").show();
+                    }
+                    $("#register").click(function(){
+                        storeInfo();
+                    });
+                    $("#check").click(function(){
+                        check();
+                    });
+            });
+            </script>
+	</body>
+</html>
+
